@@ -1,0 +1,16 @@
+Tipos de pedidos
+    normal e urgente
+
+Prioridades
+    baixa, media, alta
+
+Status aceitos
+    recebido, em_preparacao, enviado, entregue, cancelado
+
+
+Uso de IA
+
+- IA responsavel por verificar se os requisitos estavam batendo
+- IA responsavel por facilitar os testes com sugestões/comandos
+- IA responvel por lembrar de coisas que estavam faltando no projeto
+- IA escreveu os textos de resposta das requisições
