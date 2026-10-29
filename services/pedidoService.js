@@ -16,9 +16,10 @@ const pedidoService = {
 		if (!tiposValidos.includes(dados.tipo)) {
 			throw new Error("Tipo inválido. Os tipos válidos são: entrega, retirada.");
 		}
-		const prioridadesValidas = ["baixa", "media", "alta"];
+
+		const prioridadesValidas = ["baixa", "normal", "media", "alta", "urgente"];
 		if (!prioridadesValidas.includes(dados.prioridade)) {
-			throw new Error("Prioridade inválida. As prioridades válidas são: baixa, media, alta.");
+			throw new Error("Prioridade inválida. As prioridades válidas são: baixa, normal, media, alta, urgente.");
 		}
 
 		const novoPedido = {
