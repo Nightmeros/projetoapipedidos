@@ -8,7 +8,7 @@ describe('Suíte de Testes - Serviço de Pedidos', () => {
             cliente: "Carlos Silva",
             tipo: "entrega",
             valor: 350,
-            prioridade: "normal"
+            prioridade: "baixa"
         };
         
         const pedido = pedidoService.criar(dados);
