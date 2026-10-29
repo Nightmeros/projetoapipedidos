@@ -15,3 +15,7 @@ Uso de IA
 - IA responvel por lembrar de coisas que estavam faltando no projeto
 - IA escreveu os textos de resposta das requisições
 - ajuda com os testes automaticos
+
+
+"npm test" para testar o projeto
+"node index.js" para rodar o projeto
